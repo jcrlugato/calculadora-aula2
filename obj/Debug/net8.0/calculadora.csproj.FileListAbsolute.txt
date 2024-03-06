@@ -1,0 +1,14 @@
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.AssemblyInfoInputs.cache
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.AssemblyInfo.cs
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.csproj.CoreCompileInputs.cache
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/bin/Debug/net8.0/calculadora
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/bin/Debug/net8.0/calculadora.deps.json
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/bin/Debug/net8.0/calculadora.runtimeconfig.json
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/bin/Debug/net8.0/calculadora.dll
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/bin/Debug/net8.0/calculadora.pdb
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.dll
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/refint/calculadora.dll
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.pdb
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.genruntimeconfig.cache
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/ref/calculadora.dll
