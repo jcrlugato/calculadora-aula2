@@ -30,15 +30,24 @@ class Calculadora
         int v = x + y;
         Console.WriteLine($"\nA some de {x} + {y} é: " + v);
 
+        Console.WriteLine("\nDeseja fazer um novo calculo?");
+        Console.WriteLine("\nDigite 1 para Sim e 2 para Não: ");
+        string opString = Console.ReadLine()!;
+        int op = int.Parse(opString);
+
+        if(op == 1)
+        {
+         Soma();
+        }
+        else{
+            Console.Clear();
+            ExibirMenu();
+        }
         
-        Thread.Sleep(4000);
-        Console.Clear();
-        ExibirMenu();
-    
         return v;
 
     }
-    public int Multpica()
+    public int Multplica()
     {
        
         Console.WriteLine("Digite para X um número inteiro: ");
@@ -51,16 +60,10 @@ class Calculadora
 
         int v = x * y;
         Console.WriteLine($"A multiplicação de {x} * {y} é: " + v);
-        
-        if(op >= 0){
-            Console.WriteLine("Digite 1 para sair: ");
-            string opString = Console.ReadLine()!;
-            int op = int.Parse(opString);
-        }
-        else{
-            Console.Clear();
-            ExibirMenu();
-        }
+
+        Thread.Sleep(4000);
+        Console.Clear();
+        ExibirMenu();
         
         return v;
     }
@@ -89,7 +92,7 @@ class Calculadora
         {
             case 1: Soma();
             break;
-            case 2: Multpica();
+            case 2: Multplica();
             break;
 
         }
