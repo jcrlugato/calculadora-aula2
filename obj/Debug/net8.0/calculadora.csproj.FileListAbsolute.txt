@@ -12,3 +12,4 @@
 /Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.pdb
 /Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.genruntimeconfig.cache
 /Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/ref/calculadora.dll
+/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/Debug/net8.0/calculadora.sourcelink.json

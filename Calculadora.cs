@@ -19,11 +19,12 @@ class Calculadora
 
     public int Soma()
     {
-        Console.WriteLine("\nDigite para X um número inteiro: ");
+        Console.Clear();
+        Console.Write("\nDigite para X um número inteiro: ");
         string dadox = Console.ReadLine()!;
         int x = int.Parse(dadox);
 
-        Console.WriteLine("\nDigite para Y um número inteiro: ");
+        Console.Write("\nDigite para Y um número inteiro: ");
         string dadoy = Console.ReadLine()!;
         int y = int.Parse(dadoy);
 
@@ -49,31 +50,93 @@ class Calculadora
     }
     public int Multplica()
     {
-       
-        Console.WriteLine("Digite para X um número inteiro: ");
+        Console.Clear();
+        Console.Write("Digite para X um número inteiro: ");
         string dadox = Console.ReadLine()!;
         int x = int.Parse(dadox);
 
-        Console.WriteLine("Digite para Y um número inteiro: ");
+        Console.Write("Digite para Y um número inteiro: ");
         string dadoy = Console.ReadLine()!;
         int y = int.Parse(dadoy);
 
         int v = x * y;
         Console.WriteLine($"A multiplicação de {x} * {y} é: " + v);
 
-        Thread.Sleep(4000);
-        Console.Clear();
-        ExibirMenu();
+        Console.WriteLine("\nDeseja fazer um novo calculo?");
+        Console.Write("\nDigite 1 para Sim e 2 para Não: ");
+        string opString = Console.ReadLine()!;
+        int op = int.Parse(opString);
+
+        if(op == 1)
+        {
+         Multplica();
+        }
+        else{
+            Console.Clear();
+            ExibirMenu();
+        }
         
         return v;
     }
     public int Subtracao()
     {
-        return x - y;
+       Console.Clear();
+        Console.Write("Digite para X um número inteiro: ");
+        string dadox = Console.ReadLine()!;
+        int x = int.Parse(dadox);
+
+        Console.Write("Digite para Y um número inteiro: ");
+        string dadoy = Console.ReadLine()!;
+        int y = int.Parse(dadoy);
+
+        int v = x - y;
+        Console.WriteLine($"A multiplicação de {x} - {y} é: " + v);
+
+        Console.WriteLine("\nDeseja fazer um novo calculo?");
+        Console.WriteLine("\nDigite 1 para Sim e 2 para Não: ");
+        string opString = Console.ReadLine()!;
+        int op = int.Parse(opString);
+
+        if(op == 1)
+        {
+         Subtracao();
+        }
+        else{
+            Console.Clear();
+            ExibirMenu();
+        }
+        
+        return v;
     }
     public double Divisao()
     {
-        return x / y;
+       Console.Clear();
+        Console.Write("Digite para X um número inteiro: ");
+        string dadox = Console.ReadLine()!;
+        int x = int.Parse(dadox);
+
+        Console.Write("Digite para Y um número inteiro: ");
+        string dadoy = Console.ReadLine()!;
+        int y = int.Parse(dadoy);
+
+        int v = x / y;
+        Console.WriteLine($"A multiplicação de {x} / {y} é: " + v);
+
+        Console.WriteLine("\nDeseja fazer um novo calculo?");
+        Console.WriteLine("\nDigite 1 para Sim e 2 para Não: ");
+        string opString = Console.ReadLine()!;
+        int op = int.Parse(opString);
+
+        if(op == 1)
+        {
+         Multplica();
+        }
+        else{
+            Console.Clear();
+            ExibirMenu();
+        }
+        
+        return v;
     }
     public void ExibirMenu()
     {
@@ -82,18 +145,20 @@ class Calculadora
         Console.WriteLine("Digita 2 para efetuar a Subtração");
         Console.WriteLine("Digite 3 para efetuar a Multiplicação");
         Console.WriteLine("Digite 4 para efetuar a Divisão\n");
-        Console.WriteLine("Digite sair para finalizar");
+        Console.WriteLine("Digite -1 para finalizar");
 
-        Console.WriteLine("\nDigite sua opção:");
+        Console.Write("\nDigite sua opção: ");
         string opcaoEscolhida = Console.ReadLine()!;
         int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
 
         switch (opcaoEscolhidaNumerica)
         {
-            case 1: Soma();
-            break;
-            case 2: Multplica();
-            break;
+            case 1: Soma(); break;
+            case 2: Subtracao(); break;
+            case 3: Multplica(); break;
+            case 4: Divisao(); break;
+            case -1: Console.WriteLine("Tchau, Tchau!!! " + opcaoEscolhidaNumerica); break;
+            default: Console.WriteLine("Opção Inválida"); break;
 
         }
     }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/calculadora.csproj",
+      "projectUniqueName": "/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/calculadora.csproj",
       "projectName": "calculadora",
-      "projectPath": "/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/calculadora.csproj",
+      "projectPath": "/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/calculadora.csproj",
       "packagesPath": "/Users/juliolugato/.nuget/packages/",
-      "outputPath": "/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/",
+      "outputPath": "/Users/juliolugato/Documents/Julio Lugato/UVV EAD/Analise Desenvolvimento de Sistemas/Programação Orientada a Objetos/Aulas/Aula 2/calculadora/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/juliolugato/.nuget/NuGet/NuGet.Config"
